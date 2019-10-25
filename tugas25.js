@@ -8,8 +8,8 @@ function tugasDuapuluhLima(){
     console.log("Ascending :",angka.sort().toString());
     console.log("Descending :",angka.reverse().toString());
     var i = angka.filter(angka => {
-        return angka > 10;
-    })
+        return angka > 10
+    });
     console.log("Filter > 10 :",i.toString());
 }
 
